@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #28223F;
+  font-family: Montserrat, sans-serif;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  min-height: 100vh;
+  margin: 0;
+}
+
+.icono {
+    width: 100%;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #9a40a9, #b74cc9);
+    box-shadow: inset 20px 20px 60px #913ca0, inset -20px -20px 60px #c552d8
+}
+
+.name {
+  margin: 10px 0; 
+  font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h5 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.card-container {
+  background-color: #231E39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 30px;
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.card-container .round {
+  border: 1px solid #03BFCB;
+  border-radius: 50%;
+  padding: 7px;
+  height: 170px;
+}
+
+hr {
+    background-color: lightgray;
+    height: 1px;
+}
+
+.skills {
+  background-color: #1F1A36;
+  text-align: left;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+
+ul {
+    list-style: none;
+}
